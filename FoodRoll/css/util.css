@@ -3142,13 +3142,17 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .txtMio {
-    background-color: #fff;
+    background-color: red;
     border-radius: 4px;
+    border: 1px solid white;
 	font-family: Montserrat;
 	font-weight: 600;
-	font-size: 15px;
-	color: #555555;
-    padding: 2px;
+	font-size: 14px;
+	color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .txt10 {
@@ -3848,6 +3852,9 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 -----------------------------------------------------------
 */
 @media (max-width: 576px) {
+    .tit3{
+        font-size: 35px;
+    }
 	.flex-col-l-sm {
 		display: -webkit-box;
 		display: -webkit-flex;
