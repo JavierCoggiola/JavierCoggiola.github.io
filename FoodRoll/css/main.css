@@ -1536,7 +1536,7 @@ body {
 
 .bg-title-page {
     width: 100%;
-    min-height: 545px;
+    min-height: 145px;
     padding-left: 15px;
     padding-right: 15px;
     background-repeat: no-repeat;
@@ -1750,7 +1750,9 @@ body {
 .aligncenter {
     text-align: center;
 }
-
+.sombreadoMio {
+    text-shadow: 0px 0px 5px #000,0px 0px 5px #000;
+}
 .sombreado {
     text-shadow: 15px 15px 22px #000,15px 15px 24px #001;
 }

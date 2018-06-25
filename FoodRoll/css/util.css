@@ -3141,6 +3141,16 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: #fff;
 }
 
+.txtMio {
+    background-color: #fff;
+    border-radius: 4px;
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 15px;
+	color: #555555;
+    padding: 2px;
+}
+
 .txt10 {
 	font-family: Montserrat;
 	font-weight: 400;
