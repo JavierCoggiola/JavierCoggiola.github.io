@@ -3853,7 +3853,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 */
 @media (max-width: 576px) {
     .tit3{
-        font-size: 35px;
+        font-size: 30px;
     }
 	.flex-col-l-sm {
 		display: -webkit-box;
@@ -3890,6 +3890,6 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 
 @media (max-width: 376px) {
     .tit4 {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
