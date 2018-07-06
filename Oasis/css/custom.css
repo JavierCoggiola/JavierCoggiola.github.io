@@ -909,7 +909,8 @@ a:focus {
 
 .contact-info p {
     font-size: 18px;
-    color: #aaa6a6;
+    font-weight: 600;
+    color: #3d3d3d;
     padding-bottom: 8px;
 }
 
@@ -1211,9 +1212,12 @@ footer {
     .main-title {
         margin-bottom: 40px;
     }
-
+    
     .main-title h2 {
         font-size: 29px;
+    }
+     .titleContact  h2 {
+        font-size: 25px;
     }
     .mititle {
         margin-top: -80px;
@@ -1226,11 +1230,21 @@ footer {
     .mititle2 {
         margin-bottom: 20px;
     }
+    
     .mititleVision {
         margin-top: -30px;
     }
     .mititle h2 {
         font-size: 40px;
+    }
+    
+    .mititle3 h2 {
+        
+        font-size: 32px !important;
+    }
+    .mititle4 h2 {
+        
+        font-size: 42px !important;
     }
     .banner {
         padding: 60px 0 80px;
@@ -1249,7 +1263,6 @@ footer {
     }
 
     .imgcelu {
-
         width: 77%;
     }
     .about-desc h2,
@@ -2237,7 +2250,7 @@ footer {
 
 @media (max-width: 592px) {
     .oasis {
-        width: 250px;
+        width: 200px;
     }
 }
 
@@ -2390,17 +2403,22 @@ footer {
 
 .carousel-control.left,
 .carousel-control.right {
+    z-index: 1;
     opacity: 1;
     filter: alpha(opacity=100);
     background-image: none;
     background-repeat: no-repeat;
     text-shadow: none;
 }
-
+.carousel {
+    margin-top: -90px;
+}
 .carousel-indicators .active {
     background-color: white;
 }
-
+.carousel-indicators {
+    z-index: 1;
+}
 .carousel-control {
     color: #e2e2e2;
 }
