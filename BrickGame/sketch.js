@@ -97,7 +97,7 @@ function textoVidas() {
     vidastext.style('font-family: monospace; color: green; font-size: 30px;')
 }
 function textoJavi() {
-    javi = createP('Javier Coggiola');
+    javi = createP('El grupo de los pibes');
     javi.position(20, height - 100);
     javi.style('font-family: monospace; color: blue; font-size: 20px;')
 }
