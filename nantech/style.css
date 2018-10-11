@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.mainMap {
+    width: 65vw;
+    background-image: url(img/desktop_map.png);
+    background-size: auto;
+}
+
+.stores {
+    padding: 20px;
+    width: 30vw;
+}
+
+.stores header {
+    text-transform: uppercase;
+}
+
+.find {
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.busqueda input {
+    height: 15px;
+    width: 250px;
+    padding: 5px;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+.busqueda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.filter {
+    background-color: transparent;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 30px;
+    color: grey !important;
+}
+
+.filter:hover {
+    background-color: orange !important;
+    color: black !important;
+}
+
+.plusfilters {
+    border-top: 1px solid grey;
+    padding: 10px;
+}
+
+.plusfilters input {
+    margin: 5px;
+}
+
+.location {
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.pin {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pin p {
+    font-size: 15px;
+    text-transform: lowercase;
+    font-weight: bold;
+    color: grey !important;
+}
+
+.sentto {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #df8900 !important;
+    margin-right: 10px;
+}
+
+.miborder {
+    border-left: 2px solid #df8900;
+    padding-left: 10px;
+}
+
+.location img {
+    height: 35px;
+    width: 35px;
+}
+
+.location p {
+    padding: 5px 0px;
+}
+
+.buttons {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.buttons1 {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.buttons1 button {
+    width: 49%;
+    background-color: #362d2e;
+}
+
+.bottomButton {
+    width: 100%;
+}
+
+button {
+    padding: 6px;
+    border: none;
+    text-transform: uppercase;
+    background-color: #df8900;
+    color: white;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: black;
+    transition: all .3s;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+.mobileMap {
+    display: none;
+}
+
+@media only screen and (max-width: 1250px) {
+    .busqueda input {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+
+    .buttons1 {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .buttons1 button {
+        margin: 4px 0px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .sentto {
+        font-size: 13px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+
+    .find {
+        border-bottom: none;
+    }
+
+    .mobileMenu button {
+        font-size: 16px;
+        padding: 0px;
+        border: none;
+        background-color: transparent;
+        color: black;
+        font-weight: bold;
+    }
+    .naranja {
+        color: orange !important;
+    }
+    .mobileMenu button:hover {
+        background-color: transparent;
+    }
+
+    .mobileMenu {
+        text-transform: uppercase;
+        border-bottom: 1px solid grey;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .mainMap {
+        display: none !important;
+    }
+
+    .mobileMap {
+        display: flex;
+        height: 500px;
+        width: 100%;
+        background-image: url(img/mobile_map.png);
+        background-size: cover;
+        
+    }
+    .stores {
+        width: 100% !important;
+    }
+
+    .stores .find header {
+        text-align: center;
+    }
+    #showhidde {
+        display: none;
+    }
+
+    .busqueda input {
+        height: 15px;
+        width: 300px !important;
+        padding: 5px;
+        font-size: 15px;
+        margin: 20px 0px;
+    }
+
+    .busqueda {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .location {
+        padding: 15px 20px;
+    }
+    .buttons1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .buttons1 button {
+        width: 49%;
+    }
+
+    .sentto {
+        display: none;
+    }
+
+    .bottomButton {
+        background-color: #362d2e;
+    }
+}

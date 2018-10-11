@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="Javier Coggiola">
+    <meta name="description" content="Nan Tech">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Nan Tech</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Scripts para mostrar filtros -->
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <div class="mainContainer">
+        <section class="mainMap">
+        </section>
+        <section class="stores">
+            <div class="find">
+                <header>
+                    <h3>FIND STORES</h3>
+                </header>
+                <section class="busqueda">
+                    <form action="">
+                        <input type="text" name="find" placeholder="Anaheim CA 92805">
+                    </form>
+                    <button id="showhidde" class="filter">filter by +</button>
+                </section>
+                <div class="plusfilters">
+                    <input type="checkbox" name="tipo1" value="Speciality">Speciality<br>
+                    <input type="checkbox" name="tipo2" value="FactoryOutlet">Factory Outlet<br>
+                    <input type="checkbox" name="tipo3" value="AuthorizedRetailer">Authorized Retailer<br>
+                    <input type="checkbox" name="tipo4" value="TimberlandFootwear">Timberland PRO Footwear<br>
+                    <input type="checkbox" name="tipo5" value="TimberlandWorkwear">Timberland PRO Workwear<br>
+                </div>
+            </div>
+
+            <div class="mobileMenu">
+                <button id="showlist"><i class="fas fa-list-ul"></i> List</button>
+                <button id="showmap"><i class="fas fa-map-marker-alt"></i> Map</button>
+                <button id="filtro"><i class="fas fa-filter"></i> Filter</button>
+            </div>
+
+            <section class="mobileMap">
+            </section>
+
+            <div class="location">
+                <div class="paddingMobile">
+                    <section class="pin">
+                        <img src="img/pin.png" alt="pin">
+                        <p>3.19 miles away </p>
+                    </section>
+                    <header>
+                        <h3>Warehouse shoe sale - anaheim</h3>
+                    </header>
+                    <p>100 East Washington Ave</p>
+                    <p>City, ST 12345</p>
+                    <p>555-555-555</p>
+                    <span class="sentto"><a href="">Send To Phone</a></span>
+                    <span class="sentto miborder"><a href="">Send To Email</a></span>
+                    <section class="buttons">
+                        <div class="buttons1">
+                            <button type="button">Get directions</button>
+                            <button type="button">More info</button></div>
+                        <button type="button" class="bottomButton">view store page</button>
+                    </section>
+                </div>
+            </div>
+            <div class="location">
+                <section class="pin">
+                    <img src="img/pin.png" alt="pin">
+                    <p>3.19 miles away </p>
+                </section>
+                <header>
+                    <h3>shoeteria - anaheim</h3>
+                </header>
+                <p>100 East Washington Ave</p>
+                <p>City, ST 12345</p>
+                <p>555-555-555</p>
+                <span class="sentto"><a href="">Send To Phone</a></span>
+                <span class="sentto miborder"><a href="">Send To Email</a></span>
+                <section class="buttons">
+                    <div class="buttons1">
+                        <button type="button">Get directions</button>
+                        <button type="button">More info</button></div>
+                    <button type="button" class="bottomButton">view store page</button>
+                </section>
+            </div>
+
+            <div class="location">
+                <section class="pin">
+                    <img src="img/pin.png" alt="pin">
+                    <p>3.19 miles away </p>
+                </section>
+                <header>
+                    <h3>Location A</h3>
+                </header>
+                <p>100 East Washington Ave</p>
+                <p>City, ST 12345</p>
+                <p>555-555-555</p>
+                <span class="sentto"><a href="">Send To Phone</a></span>
+                <span class="sentto miborder"><a href="">Send To Email</a></span>
+                <section class="buttons">
+                    <div class="buttons1">
+                        <button type="button">Get directions</button>
+                        <button type="button">More info</button></div>
+                    <button type="button" class="bottomButton">view store page</button>
+                </section>
+            </div>
+
+        </section>
+    </div>
+</body>
