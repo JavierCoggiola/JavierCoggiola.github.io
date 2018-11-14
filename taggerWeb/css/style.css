@@ -8,11 +8,6 @@ hr.linea {
     border-bottom: 1px solid #fff;
 }
 
-/*.rojo {
-    color: #677587;
-    font-weight: 600;
-}*/
-
 .img-responsive {
     max-width: 100%;
     height: auto;
@@ -89,9 +84,6 @@ a:hover {
     padding: 0 !important;
     margin: 0 !important;
 }
-
-
-/* Parte Javi */
 
 .logo {
     height: 70px;
@@ -259,7 +251,7 @@ main button:hover {
     }
 
     main h3 {
-        font-size: 15px;
+        font-size: 19px;
     }
 }
 
@@ -284,7 +276,7 @@ main button:hover {
     }
 
     main h3 {
-        font-size: 15px;
+        font-size: 18px;
     }
 
 
@@ -465,8 +457,6 @@ main button:hover {
     }
 }
 
-/* Parte Lauti */
-
 .servicios {
     text-align: center;
 }
@@ -638,6 +628,9 @@ a:focus {
 
 
 @media only screen and (max-width: 991px) {
+    .logofooter {
+    width: 230px;
+}
 
     .footer-info {
         text-align: center;
