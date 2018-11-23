@@ -8,6 +8,11 @@ hr.linea {
     border-bottom: 1px solid #fff;
 }
 
+.rojo {
+    color: #677587;
+    font-weight: 600;
+}
+
 .img-responsive {
     max-width: 100%;
     height: auto;
@@ -84,6 +89,9 @@ a:hover {
     padding: 0 !important;
     margin: 0 !important;
 }
+
+
+/* Parte Javi */
 
 .logo {
     height: 70px;
@@ -229,7 +237,6 @@ main button:hover {
         font-size: 24px;
     }
 }
-
 @media (max-width: 590px) {
     main {
         height: 600px;
@@ -251,10 +258,9 @@ main button:hover {
     }
 
     main h3 {
-        font-size: 19px;
+        font-size: 15px;
     }
 }
-
 @media (max-width: 400px) {
     main {
         height: 600px;
@@ -276,15 +282,15 @@ main button:hover {
     }
 
     main h3 {
-        font-size: 18px;
+        font-size: 15px;
     }
 
 
-    .no-animation {
-        display: none;
-    }
+  .no-animation {
+display: none;
+  }
 
-}
+  }
 
 #miBarra .navbar-nav .nav-item .nav-link {
     font-size: 90%;
@@ -457,6 +463,8 @@ main button:hover {
     }
 }
 
+/* Parte Lauti */
+
 .servicios {
     text-align: center;
 }
@@ -475,17 +483,12 @@ main button:hover {
 }
 
 h2 {
-    color: #677587;
-    font-weight: 600;
-    padding: 25px;
-    font-size: 39px;
+  padding: 25px;
+  font-size: 29px;
 }
-#contacto h2 {
-    margin-top: 20px;
-    margin-bottom: -20px;
-}
+
 h3 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .cajas {
@@ -518,6 +521,12 @@ form {
     margin-top: 20px;
 }
 
+.contactanos h2 {
+    color: #677587;
+    font-weight: 600;
+    font-size: 32px;
+}
+
 /* FOOTER */
 
 a:hover {
@@ -535,7 +544,7 @@ a:focus {
 }
 
 .logofooter {
-    width: 360px;
+    width: 220px;
 }
 
 #footernegro {
@@ -585,14 +594,14 @@ a:focus {
 .footer-info p {
     color: #fff;
     letter-spacing: 0.02em;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
 }
 
 .footer-info a {
     color: #fff;
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .footer-info a:hover {
@@ -628,9 +637,6 @@ a:focus {
 
 
 @media only screen and (max-width: 991px) {
-    .logofooter {
-    width: 230px;
-}
 
     .footer-info {
         text-align: center;
@@ -660,4 +666,21 @@ a:focus {
         font-size: 12px;
     }
 
+  .mg-l {
+    margin-left: 0 !important;
+  }
+
+
+}
+
+.margin-id {
+  margin-top: 150px;
+}
+
+.flip {
+  border-radius: 1%;
+}
+
+.mg-l {
+  margin-left: 40px;
 }

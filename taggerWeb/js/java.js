@@ -40,8 +40,10 @@ $(document).ready(function () {
             //$("#milogo").removeClass("brandlogoMostrar");
             //$("#milogo").addClass("brandlogoMovil");
         }
+
+
     };
-    
+
 
 
     // Collapse now if page is not at top
@@ -57,3 +59,13 @@ $(document).ready(function () {
         $(".navbar").removeClass("d-none");
     })
 })
+
+$("a[href^='#']").click(function(e) {
+e.preventDefault();
+
+var position = $($(this).attr("href")).offset().top;
+
+$("body, html").animate({
+scrollTop: position
+} /* speed */ );
+});
